@@ -13,12 +13,14 @@ ul {
 }
 
 li {
-  list-style-type: none;
+  list-style-type:displa inline right;
   font-size: 40px;
+  display: inline;right: ;
 }
 
 img {
   margin: 0 auto;
+  display:block;
 }
 
 #item-1 {
@@ -34,5 +36,5 @@ img {
 }
 
 #image-3 {
-  display: none;
+  
 }
