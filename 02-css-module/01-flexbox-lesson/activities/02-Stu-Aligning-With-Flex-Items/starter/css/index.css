@@ -24,6 +24,7 @@ It is highly recommended to try out these commands in chromes web inspector to s
 - justify-content documentation - https://www.w3schools.com/cssref/css3_pr_justify-content.asp
 */
 .alignItems {
+  justify-content: flex-start;
   /*
   - under this comment type out the css property justify-content.
   - Try out the following properties of align-items
@@ -34,7 +35,8 @@ It is highly recommended to try out these commands in chromes web inspector to s
 
 }
 .justifyContent {
-/*
+ justify-content: center;
+  /*
 - under this comment type out the css property justify-content.
 - Try out the following properties of justify-Content
 - center
@@ -47,7 +49,9 @@ It is highly recommended to try out these commands in chromes web inspector to s
 
 }
 .perfectlyCentered {
-/*
+justify-content: center;
+align-items: center;
+  /*
 - Under this comment type out the css property of justify-content: center;
 - Then type out the css property align-items: center;
 - Reload the browser and see for yourslef that your item is perfectly centered!
