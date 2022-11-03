@@ -62,14 +62,15 @@
   </div>
   <!-- End jumbotron -->
   <!-- Cards -->
-  <div class="container-fluid">
-    <div class="row">
+  <div class="container-fluid" class="content">
+    <h2 class="section-heading">shows near you</h2>
+    <div class="row" class="shows-near">
       <!-- Card 1 -->
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="images/1_card.png" class="card-img-top" alt="...">
+          <img src="images/show1.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Melbourne Australia</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -79,11 +80,11 @@
       <!-- End card 1 -->
 
       <!-- Card 2 -->
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="images/2_card.png" class="card-img-top" alt="...">
+          <img src="images/show2.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Chicago Illinois</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -93,11 +94,11 @@
       <!-- End card 2 -->
 
       <!-- Card 3 -->
-      <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+      <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
         <div class="card">
-          <img src="images/3_card.png" class="card-img-top" alt="...">
+          <img src="images/show3.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Long Beach California</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
             <a href="#" class="btn btn-primary">Go somewhere</a>
@@ -111,17 +112,19 @@
   <!-- End cards -->
 
   <!-- Content -->
-  <div class="container-fluid">
+  <div class="container-fluid" class="content">
+    <h2 class="section-heading">Why Were Better</h2>
+    
 
     <!-- Row 1 -->
-    <div class="row">
+    <div class="row" class="shows-near" class="value-prop">
       <div class="sideAccent">
       </div>
       <div class="col-3">
-        <img src="images/assistance.png">
+        <img class="image-container" src="images/assistance.png">
       </div>
       <div class="col-8">
-        <h3>Title 1</h3>
+        <h3>Were Always Here To Help</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
         </p>
@@ -131,12 +134,48 @@
     </div>
     <!-- End row 1 -->
 
+    <!--row 2 -->
+    <div class="row" class="shows-near" class="value-prop">
+      <div class="sideAccent">
+      </div>
+      <div class="col-3">
+        <img class="image-container" src="images/refund.png">
+      </div>
+      <div class="col-8">
+        <h3>The Best Prices</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+        </p>
+        <a href="#" class="btn btn-primary">Learn More
+        </a>
+      </div>
+    </div>
+<!--end row 2-->
+<!--row 3-->
+    <div class="row" class="shows-near" class="value-prop">
+      <div class="sideAccent">
+      </div>
+      <div class="col-3">
+        <img class="image-container" src="images/mail-box.png">
+      </div>
+      <div class="col-8">
+        <h3>The Best Shows</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+        </p>
+        <a href="#" class="btn btn-primary">More Shows
+        </a>
+      </div>
+    </div>
+    <!--end row 3-->
+
   </div>
   <!-- End content -->
 
   <!-- Footer -->
-  <footer>
+  <footer class="email-contain">
     <form>
+      <h3>Join Our Mailing List</h3>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
