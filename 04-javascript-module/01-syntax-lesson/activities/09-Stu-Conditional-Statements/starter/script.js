@@ -4,3 +4,19 @@ var expression1 = (x < 25);
 var expression2 = (x > 50);
 
 // Write Your JavaScript Code Here
+
+// if (condition to check if we should run our code) {
+// -- IF the conditions resulted to true, then we run the code innside of the curly brakcets   
+//}
+
+if (expression1 && expression2) {
+    console.log("True ✅ True ✅");
+} else if (expression1) {
+    console.log("True ✅ False ❌");
+} else if (expression2) {
+    console.log( "False ❌ True ✅");
+} else {
+    console.log("False ❌ False ❌");
+}
+
+
